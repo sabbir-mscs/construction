@@ -1,0 +1,326 @@
+/*
+  Theme Name: Name - Multipurpose HTML Template
+  Author: 
+  Support: admin@gmail.com
+  Description: Creative  HTML5 template.
+  Version: 1.0
+*/
+/* CSS Index 
+-----------------------------------
+1. Theme default css
+2. header
+3. slider
+4. about-area
+5. features-box
+6. department
+7. team
+8. video-area
+9. counter
+10. footer 
+*/
+/* //!============================ Header ============================ */
+header {
+  position: relative;
+  height: 100vh;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../img/slider/slider-2.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/slider/slider-2.jpg");
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 90px;
+}
+
+header .first-row {
+  margin-top: 0;
+  padding-top: 2.5rem;
+  color: white;
+}
+
+header .social-icon {
+  display: inline-block;
+}
+
+header .social-icon span {
+  margin: 0 20px;
+  font-size: 14px;
+}
+
+header .social-icon span :first-child {
+  margin-left: 0;
+}
+
+header .left-text {
+  display: inline-block;
+  margin-left: 50px;
+  font-size: 12px;
+}
+
+header .left-text p {
+  color: white;
+  font-size: 12px;
+  margin: 0;
+}
+
+header .right {
+  text-align: right;
+  font-size: 12px;
+}
+
+header .right a {
+  color: white;
+  margin-right: 30px;
+}
+
+header form {
+  min-width: 70%;
+  text-align: center;
+}
+
+header form input[type="text"] {
+  padding: 10px;
+  font-size: 17px;
+  border: none;
+  border-bottom: 2px solid white;
+  color: white;
+  width: 80%;
+  background: transparent;
+  outline: none;
+}
+
+header form button {
+  width: 10%;
+  padding: 10px;
+  background: transparent;
+  color: white;
+  font-size: 17px;
+  border: none;
+  border-bottom: 2px solid white;
+  cursor: pointer;
+}
+
+header .get-quote {
+  text-align: right;
+}
+
+header .get-quote button:first-child {
+  margin-right: 50px;
+}
+
+header .get-quote button:last-child {
+  padding: 10px 10px;
+}
+
+header .main-nav ul li {
+  display: inline-block;
+}
+
+header .main-nav ul li a {
+  font-size: 12px;
+  color: white;
+  margin-right: 70px;
+  text-transform: uppercase;
+}
+
+header .slider-text {
+  position: absolute;
+  width: 100%;
+  top: 60%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+header .slider-text h2 {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+header .slider-text p {
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+  line-height: 1;
+  color: white;
+  margin-bottom: 50px;
+}
+
+header .slider-text button.services {
+  background: #ffcc33;
+  color: white;
+  font-size: 12px;
+  border: 2px solid #ffcc33;
+  font-weight: 700;
+}
+
+/* //!============================ Module ============================ */
+.module-section .module-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.module-section .module-container .img-container {
+  width: 100%;
+  z-index: -1;
+}
+
+.module-section .module-container .img-container img {
+  width: 100%;
+}
+
+.module-section .module-container .text-container {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 30px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(black));
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), black);
+}
+
+.module-section .module-container .text-container h3 {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.module-section .module-container .text-container hr {
+  width: 50px;
+  position: relative;
+  z-index: 1;
+  color: red;
+  margin: 0;
+  margin-top: 20px;
+  padding: 0;
+}
+
+.module-section .module-lg-img {
+  width: 100%;
+}
+
+.module-section .module-lg-img img {
+  width: 100%;
+}
+
+.module-section .text-field {
+  text-align: left;
+  padding: 30px;
+}
+
+.module-section .text-field h3 {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 700;
+  color: #333333;
+}
+
+.module-section .text-field p {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333333;
+}
+
+.module-section .text-field button {
+  padding: 20px 40px;
+  background: #35ceb2;
+  color: white;
+}
+
+/* //!============================ Projects ============================ */
+.projects img {
+  width: 100%;
+}
+
+.projects .text-field {
+  text-align: left;
+  padding: 100px;
+}
+
+.projects .text-field h3 {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 700;
+  color: #333333;
+}
+
+.projects .text-field p {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333333;
+}
+
+.projects .text-field button {
+  padding: 20px 40px;
+  background: #ffcc33;
+  color: white;
+}
+
+/* //!============================ Featured Products ============================ */
+section.f-products h2 {
+  color: #333333;
+}
+
+section.f-products .card {
+  width: 270px;
+  height: 450px;
+  padding: 30px;
+  -webkit-box-shadow: 6.47px 24.148px 35px 0px rgba(0, 0, 0, 0.13);
+          box-shadow: 6.47px 24.148px 35px 0px rgba(0, 0, 0, 0.13);
+  overflow: hidden;
+}
+
+section.f-products .card .card-img-top {
+  width: 100%;
+  height: 50%;
+}
+
+section.f-products .card .card-title {
+  color: #333333;
+  font-size: 14px;
+}
+
+section.f-products .card p.card-text {
+  font-size: 12px;
+  width: 100%;
+  line-height: 1.4;
+  letter-spacing: -1px;
+}
+
+/* //!============================ Dreams together ============================ */
+section.build-dream {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../img/build-dream/dream.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/build-dream/dream.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+section.build-dream .dream-text {
+  width: 100%;
+  height: 586px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section.build-dream .dream-text h2 {
+  font-weight: 900;
+}
+
+section.build-dream .dream-text p {
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
